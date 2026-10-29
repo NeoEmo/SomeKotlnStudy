@@ -19,6 +19,8 @@ fun ArraysNullsAndFor() {
     // НАЧАЛО
     val entities = arrayOf(first, second, third) // создание массива "сущностей" (констант)
 
+    // цикл for типа python (по крайней мере вроде там такой видел),
+    // аналогичен for(var entity: entities) в Java
     for (entity in entities) {
         val upperVal: String? = entity?.uppercase()
         val lengthVal: Int? = entity?.length
