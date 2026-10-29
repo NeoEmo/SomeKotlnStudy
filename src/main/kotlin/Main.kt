@@ -1,8 +1,11 @@
 package neoemo.mods
 
+import neoemo.mods.arrays.ArraysNullsAndFor
+
 fun main() {
     breakVal()
     kotlinIsJavaScript()
+    ArraysNullsAndFor()
 }
 
 fun breakVal() {
